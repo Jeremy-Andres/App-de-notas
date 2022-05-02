@@ -1,0 +1,7 @@
+El módulo tkinter.scrolledtext proporciona una clase del mismo nombre que implementa un widget de texto básico que tiene una barra de desplazamiento vertical configurada para hacer «lo correcto». Usar la clase ScrolledText es mucho más fácil que configurar un widget de texto y una barra de desplazamiento directamente.
+
+El widget de texto y la barra de desplazamiento se empaquetan juntos en un Frame, y los métodos de los administradores de geometría Grid y Pack se adquieren del objeto Frame. Esto permite que el widget ScrolledText sea usado directamente para lograr el funcionamiento más normal del administrador de geometría.
+
+Si fuera necesario un control más específico, los siguientes atributos están disponibles:s
+
+Jeremy Herrera
