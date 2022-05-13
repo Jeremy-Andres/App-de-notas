@@ -34,7 +34,7 @@ class Ventana(ttk.Frame):
 
         self.entrada_texto = st.ScrolledText(self.marco_izq, font=(self.fuente_estilo))     #entrada de texto
         self.entrada_texto.config(background="#FCF3CF")
-        self.entrada_texto.place(relx=0.01, rely=0.05, relwidth=0.98, relheight= 0.45, )
+        self.entrada_texto.place(relx=0.01, rely=0.05, relwidth=0.98, relheight= 0.85, )
 
 
         self.boton_abrir_archivo = ttk.Button(self.marco_der,text="Abrir", command= lambda: abrir_archivos(self))
